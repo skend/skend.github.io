@@ -45,9 +45,7 @@ html, body {
 
 .article-date a {
   font-size: 12px;
-  padding: 0px;
   margin: 0px;
-  padding-top: 2px;
   text-decoration: underline;
   color: black;
 }
@@ -58,6 +56,7 @@ html, body {
 
 .article-post {
   font-size: 15px;
+  padding-top: 15px;
   padding-bottom: 40px;
 }
 
