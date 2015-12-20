@@ -8,93 +8,101 @@ html, body {
   height: 100%;
 }
 
-#wrap {
-  min-height: 93%;
-  height: auto !important;
-  height: 93%;
-  margin: 0 auto -4em;
-  width: 960px;
-  font-family: 'Open Sans', sans-serif;
-}
-
-#header #logo h1 {
+#title #logo h1 {
   width: 960px;
   margin: auto;
   font-size: 45px;
-  padding-top: 20px;
+  padding-top: 520px;
   font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  color: #cccccc;
+  padding-bottom: 20px;
 }
 
-.article {
-  padding: 0px 20px;
-}
-
-.article-title h3 {
-  font-size: 23px;
-  padding: 0px;
-  margin: 0px;
-  padding-top: 40px;
-}
-
-.article-date p {
-  font-size: 12px;
-  padding: 0px;
-  margin: 0px;
-  padding-top: 2px;
-}
-
-.article-date a {
-  font-size: 12px;
-  margin: 0px;
-  text-decoration: underline;
-  color: black;
-}
-
-.article-date a:hover {
-  color: rgb(86, 159, 245);
-}
-
-.article-post {
-  font-size: 15px;
-  padding-top: 15px;
-  padding-bottom: 40px;
-}
-
-#view-more a {
-  font-size: 12px;
-  margin: 0px;
-  text-decoration: underline;
-  color: black;
-}
-
-#footer, .push {
-  height: 4em;
-}
-
-#footer {
-  width: 960px;
+#title #logo-underline {
   margin: auto;
+  width: 350px;
+  height: 2px;
+  background: #cccccc;
+}
+
+#title #logo-spacing {
+  padding-bottom: 20px;
+}
+
+#sidebar {
+  background-image: url("img/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.media-btn {
+  width: 14%;
+  margin: 0 auto;
+}
+
+#sidebar .media-btn #blog-btn {
+  border-radius: 25px;
+  border: 1px solid #cccccc;
+  padding: 17px;
+  width: 40px;
+  height: 5px;
+  display: inline;
+  position: relative;
+  float: left;
+}
+
+#sidebar .media-btn #blog-btn a {
+  text-decoration: none;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  color: #dddddd;
+  padding-left: 2px;
+  position: relative;
+  bottom: 150%;
+  transform: translateY(-60%);
+  font-weight: bold;
+}
+
+#blog-btn-space {
+  float: left;
+  padding: 2px;
 }
 
 .media-btn svg {
-  height: 2rem;
-  width: 2rem;
+  height: 2.5rem;
+  width: 2.5rem;
+  fill: #cccccc;
 }
 
 .media-btn-twitter {
+  margin: auto;
   float: left;
   display: inline;
-  position: absolute;
+  position: relative;
+}
+
+#media-btn-twitter-space {
+  float: left;
+  padding: 2px;
 }
 
 .media-btn-email {
+  margin: auto;
   display: inline-block;
   position: relative;
-  left: 50px;
 }
 
 .media-btn-github {
+  margin: auto;
   display: inline-block;
   position: relative;
-  left: 68px;
+}
+
+.media-btn-linkedin {
+  margin: auto;
+  display: inline-block;
+  position: relative;
 }

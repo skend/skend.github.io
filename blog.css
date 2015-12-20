@@ -1,0 +1,73 @@
+/* id="#" class="." */
+
+* {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+#wrap {
+  min-height: 93%;
+  height: auto !important;
+  height: 93%;
+  margin: 0 auto -4em;
+  width: 960px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#header #logo h1 {
+  width: 960px;
+  margin: auto;
+  font-size: 45px;
+  padding-top: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.article {
+  padding: 0px 20px;
+}
+
+.article-title h3 {
+  font-size: 23px;
+  padding: 0px;
+  margin: 0px;
+  padding-top: 40px;
+}
+
+.article-date p {
+  font-size: 12px;
+  padding: 0px;
+  margin: 0px;
+  padding-top: 2px;
+}
+
+.article-date a {
+  font-size: 12px;
+  margin: 0px;
+  text-decoration: underline;
+  color: black;
+}
+
+.article-date a:hover {
+  color: rgb(86, 159, 245);
+}
+
+.article-post {
+  font-size: 15px;
+  padding-top: 15px;
+  padding-bottom: 40px;
+}
+
+#view-more a {
+  font-size: 12px;
+  margin: 0px;
+  text-decoration: underline;
+  color: black;
+}
